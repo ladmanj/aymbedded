@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PAM8304ASR
+D PAM8304ASR DiodesZetex, Audio Amplifier, 8-Pin MSOP Mono
+K
+F https://www.diodes.com/assets/Datasheets/PAM8304.pdf
+$ENDCMP
+#
+#End Doc Library

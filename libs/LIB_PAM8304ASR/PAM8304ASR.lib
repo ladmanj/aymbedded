@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model PAM8304ASR
+#/372762/410006/2.50/8/3/Integrated Circuit
+DEF PAM8304ASR IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "PAM8304ASR" 950 200 50 H V L CNN
+F2 "SOP65P490X110-8N" 950 100 50 H I L CNN
+F3 "https://www.diodes.com/assets/Datasheets/PAM8304.pdf" 950 0 50 H I L CNN
+F4 "PAM8304ASR DiodesZetex, Audio Amplifier, 8-Pin MSOP Mono" 950 -100 50 H I L CNN "Description"
+F5 "1.1" 950 -200 50 H I L CNN "Height"
+F6 "621-PAM8304ASR" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/PAM8304ASR?qs=T3IxTwwp%252B0thqqOUH1TiHA%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Diodes Incorporated" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "PAM8304ASR" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X OUT+ 1 0 0 200 R 50 50 0 0 P
+X PVDD 2 0 -100 200 R 50 50 0 0 P
+X VDD 3 0 -200 200 R 50 50 0 0 P
+X IN- 4 0 -300 200 R 50 50 0 0 P
+X OUT- 8 1100 0 200 L 50 50 0 0 P
+X GND 7 1100 -100 200 L 50 50 0 0 P
+X ~SD 6 1100 -200 200 L 50 50 0 0 P
+X IN+ 5 1100 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
